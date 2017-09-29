@@ -1,0 +1,162 @@
+div {
+  border: 1px solid red;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* need to impliment the following:
+
+p {
+  font-size: 22px;
+}
+
+where 'p' is just general writing
+*/
+
+/*header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+}
+
+#logo-img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-decoration: underline;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 69px;
+}
+
+/*Mission*/
+.background-img {
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  position: relative;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-text {
+  position: absolute;
+  width: 1200px;
+}
+
+/*tea-of-the-month*/
+
+.tea-of-the-month {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.tea-imgs {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-imgs-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.berry {
+  display: flex;
+  flex-direction: column;
+}
+
+.rum {
+  display: flex;
+  flex-direction: column;
+}
+
+.donuts {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-imgs-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.myrtle {
+  display: flex;
+  flex-direction: column;
+}
+
+.bizarre {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+/*locations*/
+
+.locations {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-img {
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.locations-title {
+  background-color: transparent;
+  position: absolute;
+}
+
+.downtown {
+  width: 300px;
+}
+
+.bayside {
+  width: 300px;
+}
+
+.oakdale {
+  width: 300px;
+}
+
+/*footer*/
+
+#copyright {
+  text-align: left;
+}
