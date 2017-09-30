@@ -1,5 +1,5 @@
 div {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 * {
@@ -22,6 +22,7 @@ where 'p' is just general writing
 /*header*/
 .header {
   display: flex;
+  margin-top: -10px;
   justify-content: space-between;
   width: 100%;
   height: 69px;
@@ -33,6 +34,7 @@ where 'p' is just general writing
 #logo-img {
   height: 50px;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 nav {
@@ -41,7 +43,7 @@ nav {
 
 .nav-link {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 400px;
   height: 69px;
@@ -53,6 +55,7 @@ nav {
   height: 700px;
   width: 1200px;
   position: relative;
+  margin-top: 50px;
 }
 
 .mission {
@@ -130,6 +133,9 @@ h4 {
   height: 500px;
   justify-content: center;
   align-items: center;
+  margin-top: 70px;
+  border: 1px solid red;
+  flex-direction: column;
 }
 
 .locations-img {
@@ -140,23 +146,44 @@ h4 {
 
 .locations-title {
   background-color: transparent;
+    position: absolute;
+}
+
+.all-locations {
+  display: flex;
   position: absolute;
+  margin-top: 100px;
 }
 
 .downtown {
   width: 300px;
+  margin: 0px 20px;
+  border: 1px solid red;
 }
 
 .bayside {
   width: 300px;
+  margin: 0px 20px;
+  border: 1px solid red;
 }
 
 .oakdale {
   width: 300px;
+  margin: 0px 20px;
+  border: 1px solid red;
 }
 
 /*footer*/
 
+.footer {
+  z-index: 10;
+}
+
+.footer-info {
+  height: 200px;
+}
+
 #copyright {
   text-align: left;
+  margin-left: 20px;
 }
