@@ -1,7 +1,4 @@
-div {
-  /*border: 1px solid red;*/
-}
-
+/*general content*/
 * {
   font-family: Helvetica, sans-serif;
   color: seashell;
@@ -10,19 +7,14 @@ div {
   text-align: center;
 }
 
-/* need to impliment the following:
-
-p {
+body {
   font-size: 22px;
 }
-
-where 'p' is just general writing
-*/
 
 /*header*/
 .header {
   display: flex;
-  margin-top: -10px;
+  top: 0;
   justify-content: space-between;
   width: 100%;
   height: 69px;
@@ -49,7 +41,7 @@ nav {
   height: 69px;
 }
 
-/*Mission*/
+/*mission*/
 .background-img {
   margin: 0 auto;
   height: 700px;
@@ -70,7 +62,6 @@ nav {
 }
 
 /*tea-of-the-month*/
-
 .tea-of-the-month {
   display: flex;
   flex-direction: column;
@@ -90,17 +81,7 @@ nav {
   justify-content: space-between;
 }
 
-.berry {
-  display: flex;
-  flex-direction: column;
-}
-
-.rum {
-  display: flex;
-  flex-direction: column;
-}
-
-.donuts {
+.top-row {
   display: flex;
   flex-direction: column;
 }
@@ -111,15 +92,10 @@ nav {
   justify-content: center;
 }
 
-.myrtle {
+.bottom-row {
   display: flex;
   flex-direction: column;
-}
-
-.bizarre {
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
+  margin: 0px 25px;
 }
 
 h4 {
@@ -127,63 +103,39 @@ h4 {
 }
 
 /*locations*/
-
 .locations {
-  display: flex;
+  background-image: url("../images/locations.jpg");
   height: 500px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-  border: 1px solid red;
-  flex-direction: column;
+  background-repeat: no-repeat;
+  margin: 0px 40px;
 }
 
-.locations-img {
-  height: 500px;
-  position: relative;
-  margin: 0 auto;
-}
-
-.locations-title {
+#locations {
   background-color: transparent;
-    position: absolute;
+  padding-bottom: 20px;
+  position: relative;
+  top: 112px;
 }
 
-.all-locations {
+.locations-container {
   display: flex;
-  position: absolute;
   margin-top: 100px;
+  justify-content: center;
+  background-color: transparent;
 }
 
-.downtown {
+.addresses {
   width: 300px;
   margin: 0px 20px;
-  border: 1px solid red;
-}
-
-.bayside {
-  width: 300px;
-  margin: 0px 20px;
-  border: 1px solid red;
-}
-
-.oakdale {
-  width: 300px;
-  margin: 0px 20px;
-  border: 1px solid red;
+  opacity: 1;
 }
 
 /*footer*/
-
-.footer {
-  z-index: 10;
-}
-
 .footer-info {
   height: 200px;
 }
 
-#copyright {
+.copyright {
   text-align: left;
   margin-left: 20px;
 }
